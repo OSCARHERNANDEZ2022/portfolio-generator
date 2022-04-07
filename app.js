@@ -137,6 +137,9 @@ const promptProject = portfolioData => {
    });
 };
 
+console.log(name, github);
+
+const pageHTML = generatePage(name, github);
 
 promptUser()
 .then(promptProject)
